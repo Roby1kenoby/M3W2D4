@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,86,1) 35%, rgba(0,215,227,1) 72%, rgba(0,212,255,1) 100%);
+} */
+#companyLogo{
+    width: 50px;
+    height: auto;
+}
+
+h5{
+    font-size: medium;
+    text-align: center;
+}
+
+.card-body > p:nth-child(2){
+    font-style: italic;
+    margin-bottom: 0.1em;
+    text-align: center;
+}
+
+.card-body > p:nth-child(3){
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 0.1em;
+    text-align: center;
+}
+
+.linkContainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-title{
+
+}
+
+.card-text{
+    margin:0;
+    text-overflow: ellipsis;
+}
+
+.menuLink{
+    text-decoration: none;
+}
+
+.overCarousel{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    color: white;
+}
+
+.albumSongs li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.albumSongs li p{
+    margin: 0;
+}
+
+.albumSongs a{
+    text-decoration: none;
+}
+
+.disclaimer{
+    font-size: small;
+    font-style: italic;
+}
